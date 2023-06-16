@@ -7,7 +7,8 @@
 # toti-aula-git
 Repositório para a aula de git da Toti
 
-Resovvendo conflitos entre as branch
+## Resolvendo conflitos entre as branch
+
 ```bash
 
 # Previo modifica o README no repositório remoto (Git Hub) e commita
@@ -16,6 +17,7 @@ $ git checkout -b feature-readme
 # Modifica o README no repositório local (tua pc) e commita
 $ git add README.md
 $ git commit -m 'Update README'
+$ git status
 $ git push
 # Aqui da um erro e recomenda fazer um push da nova branch
 $ git push --set-upstream origin feature-readme
@@ -30,6 +32,7 @@ $ git pull
 # Aqui temos que tomar a decisão de que código conversar, e fazer o merge a mão
 $ git add README.md
 $ git commit -m 'Solve conflict README'
+$ git status
 $ git push
 
 ```
@@ -43,4 +46,4 @@ Professor [Jão jpwieland](https://github.com/jpwieland)
 
 By DevRel <💜 /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 2023
 
-Usando branch e resolvendo conflitos 
+
